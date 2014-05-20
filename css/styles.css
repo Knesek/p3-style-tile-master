@@ -1,16 +1,55 @@
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+body {
+	background: #171F2E;
 }
+
+p, em, h2, h3 {
+	
+		font-family: 'Quattrocento', serif;
+
+}
+
+p, em {
+	color: white;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h2{
+	color: #2DA859;
+}
+
+h3 {
+	color: #5E9EB0;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	color: #D357BE;
+	font-size: 5em;
+}
+
+
+a {
+	color: #B2B6D9;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D357BE;
+}
+
 
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
 }
 
-.color-1,
+.color-1, 
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
